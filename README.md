@@ -16,13 +16,13 @@ The analysis completed for this project fell into two main deliverables: outcome
 
 This analysis looked at the outcomes of the parent category "theater"'s campaigns, which the subcategory "plays" is apart of, based on the month that each campaign started in. To complete this analysis, I created a pivot table using all of the data on kickstarter to looked specifically at the 'theater' category, the launch date of each campaign, and the outcome of those campaigns. To do this, I used "parent category" and "years" as filters, the "launch date" as rows, and "outcomes" as values and columns. After compiling the data in the pivot table, I created a line chart to show the outcomes based on the month that each campaign was started. See chart below.
 
-![Outcomes_vs_Goals.png](/Users/rileybrowne/Documents/UCB Data Analytics Course/Module 1 - Excel/Excel Projects /Resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals.png](https://github.com/Wall-E28/kickstarter_analysis/blob/master/Resources/Outcomes_vs_Goals.png)
 
 ### Analysis of Outcomes Based on Goals
 
 This analysis looked at the outcomes of the subcategory "plays"'s campaigns based on the total goal amounts. To complete this analysis, I used the COUNTIFS() function to pull the number of successful, failed, and canceled campaigns for 12 different dollar-amount ranges. For there, I found the total amount of campaigns for each dollar-amount range by using the SUM(). Then I calculated the percentage of successful, failed, and cancelled campaigns per dollar-amount range. After that, I created a line chart to show those percentages as they changed between the different dollar-amount ranges. See chart below.
 
-![Theater_Outcomes_vs_Launch.png](/Users/rileybrowne/Documents/UCB Data Analytics Course/Module 1 - Excel/Excel Projects /Resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch.png](https://github.com/Wall-E28/kickstarter_analysis/blob/master/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Challenges and Difficulties Encountered
 
